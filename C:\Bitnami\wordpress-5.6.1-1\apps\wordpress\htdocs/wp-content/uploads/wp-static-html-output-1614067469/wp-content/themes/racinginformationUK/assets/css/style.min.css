@@ -1,0 +1,79 @@
+@font-face {font-family: Metropolis-Black;src: url("https://kennethryandy.github.io/Racing-information-uk/wp-content/themes/racinginformationUK/assets/fonts/Metropolis-Black");font-weight: bolder;}
+@font-face {font-family: Metropolis-Bold;src: url("https://kennethryandy.github.io/Racing-information-uk/wp-content/themes/racinginformationUK/assets/fonts/Metropolis-Bold");font-weight: bold;}
+@font-face {font-family: Metropolis-ExtraBold;src: url("https://kennethryandy.github.io/Racing-information-uk/wp-content/themes/racinginformationUK/assets/fonts/Metropolis-ExtraBold");font-weight: 900;}
+@font-face {font-family: Metropolis-Medium;src: url("https://kennethryandy.github.io/Racing-information-uk/wp-content/themes/racinginformationUK/assets/fonts/Metropolis-Medium");font-weight: 700;}
+@font-face {font-family: Metropolis-Regular;src: url("https://kennethryandy.github.io/Racing-information-uk/wp-content/themes/racinginformationUK/assets/fonts/Metropolis-Regular");font-weight: normal;}
+@font-face {font-family: Metropolis-SemiBold;src: url("https://kennethryandy.github.io/Racing-information-uk/wp-content/themes/racinginformationUK/assets/fonts/Metropolis-SemiBold");font-weight: 600;}
+body {font-family: Metropolis-Regular,Metropolis-Medium,Metropolis-Bold,Metropolis-SemiBold,Metropolis-ExtraBold,Metropolis-Black,Arial,sans-serif;color: #212121;}
+header .header-container {display: flex;padding: 8px 0px;align-items: center;}
+header .header-container img {width: 90px;height: auto;object-fit: contain;}
+header .header-container .header-title {display: flex;flex-direction: column;margin-left: 24px;}
+header .header-container .header-title h3 {font-weight: 600;display: inline-block;}
+header .header-container .header-title h3 span {color: #82c91e;}
+header .header-container .header-title h3::after {content: "";display: block;border-top: 2px solid #212121;}
+header .header-container .header-title span {font-weight: 600;}
+header .header-container .header-contact-information {width: 100%;text-align: right;padding-top: 16px;}
+header .header-container .header-contact-information p {margin: 0;font-size: 16px;font-weight: bolder;}
+header .header-container .header-contact-information .contact {display: flex;align-items: center;justify-content: flex-end;}
+header .header-container .header-contact-information .contact i {color: #82c91e;font-size: 24px;margin-right: 8px;}
+header .header-container .header-contact-information .contact h2 {margin: 0;font-weight: bolder;}
+header .menu-navigation-container {background-color: #82c91e;padding: 12px 0px;}
+header .menu-navigation-container ul {display: flex;justify-content: space-between;align-items: center;list-style: none;margin: auto;}
+header .menu-navigation-container ul li {text-transform: uppercase;}
+header .menu-navigation-container ul li a {color: #fff;}
+main .container .row {margin-top: 56px;}
+main .container .row .title h1 {font-size: 4.5rem;font-weight: bolder;}
+main .container .row .title img {width: 100%;object-fit: contain;height: auto;}
+main .container .row .info-form {padding: 16px;border: 1px solid #fafafa;border-radius: 16px;}
+main .container .row .info-form h4 {text-transform: uppercase;text-align: center;color: #82c91e;font-weight: 600;}
+main .container .row .info-form form .form-group .label {margin: 0;}
+main .container .row .info-form form .btn-container {width: 100%;padding: 8px 48px;}
+main .container .row .info-form form .btn-container button {background-color: #82c91e;padding: 12px 24px;text-transform: uppercase;font-weight: 600;width: 100%;border-radius: 16px;color: #fff;}
+main .container .cards {margin-top: 64px;}
+main .container .cards h2 {font-weight: bolder;text-transform: uppercase;text-align: center;}
+main .container .cards .row .card {padding: 24px;border-radius: 10px;border: 1px solid #fafafa;margin-bottom: 24px;}
+main .container .cards .row .card img {width: 100%;object-fit: contain;height: auto;}
+main .container .services {margin-top: 64px;}
+main .container .services h2 {font-weight: bolder;text-transform: uppercase;text-align: center;}
+main .container .services p {text-align: center;}
+main .container .services .paper {padding: 12px 18px;display: flex;align-items: center;border: 1px solid #fafafa;border-radius: 8px;}
+main .container .services .paper i {margin-right: 8px;color: #82c91e;}
+main .container .services .paper p {margin: 0;}
+main .container .services .services-btn {width: 100%;display: flex;margin: 40px 0px;justify-content: center;align-items: center;}
+main .container .services .services-btn button {padding: 16px 72px;background-color: #82c91e;border: 1px solid #82c91e;border-radius: 12px;text-transform: uppercase;font-weight: 600;color: #fff;}
+main .container .services .services-btn button:hover {background-color: #fff;color: #82c91e;}
+main .container .investment {margin: 64px 0px;padding: 24px 36px;border: 1px solid #fafafa;border-radius: 12px;}
+main .container .investment h2 {font-weight: bolder;text-transform: uppercase;text-align: center;}
+main .container .investment p {text-align: center;}
+footer {background-color: #212121;}
+footer .contact-form {background-color: #82c91e;padding: 40px;}
+footer .contact-form .row {margin: 0;}
+footer .contact-form .row .form-container {background-color: #fff;padding: 16px;border-radius: 16px;}
+footer .contact-form .row .form-container h3 {color: #82c91e;font-weight: 600;text-transform: capitalize;text-align: center;}
+footer .contact-form .row .form-container .inputs {display: flex;justify-content: center;align-items: center;}
+footer .contact-form .row .form-container .inputs>div label {margin: 0;}
+footer .contact-form .row .form-container .inputs>div input {width: 95%;}
+footer .contact-form .row .form-container .contact-btn {width: 100%;display: flex;align-items: center;justify-content: center;}
+footer .contact-form .row .form-container .contact-btn button {padding: 10px 0px;width: 55%;background-color: #82c91e;color: #fff;font-weight: 600;text-transform: capitalize;border-radius: 16px;}
+footer .contact-form .row .contact-info {padding: 0px 16px;}
+footer .contact-form .row .contact-info h2 {font-weight: bolder;color: #fff;text-transform: capitalize;}
+footer .contact-form .row .contact-info p {color: #fff;}
+footer .contact-form .row .contact-info p span {color: #212121;}
+footer h5 {color: #82c91e;font-weight: 600;text-transform: uppercase;}
+footer p {color: #fafafa;}
+footer .row .foot {padding-top: 36px;margin-top: 16px;}
+footer .row .foot.with-logo {padding: 0;}
+footer .row .foot.with-logo img {margin-bottom: 24px;}
+footer .row .foot.with-logo p {text-align: left;}
+footer .row .foot .footer-nav .footer-navigation-container ul {list-style: none;padding: 0;margin-top: 24px;}
+footer .row .foot .footer-nav .footer-navigation-container ul li {margin-top: 8px;}
+footer .row .foot .footer-nav .footer-navigation-container ul li a {color: #fafafa;font-weight: 600;}
+footer .row .foot .footer-section {display: flex;flex-direction: column;justify-content: space-between;height: 100%;}
+footer .row .foot .footer-section .footer-services p {margin-top: 24px;color: #fafafa;}
+footer .row .foot .footer-section .social-icons {display: flex;flex-direction: column;}
+footer .row .foot .footer-section .social-icons span {margin-left: -8px;margin-right: 16px;font-size: 1.25em;}
+footer .row .foot .footer-section .social-icons span .icon-background {color: #fff;}
+footer .row .foot .footer-section .social-icons span .fa-inverse {color: #212121;}
+footer .row .foot .footer-cta div button {width: 100%;border-radius: 8px;font-weight: 600;margin-top: 16px;}
+footer .row .foot .footer-cta div .email {color: #212121;background-color: #fafafa;}
+footer .row .foot .footer-cta div .subcribe {color: #fafafa;background-color: #82c91e;}
